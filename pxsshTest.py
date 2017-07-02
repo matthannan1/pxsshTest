@@ -1,5 +1,5 @@
 #import pxssh
-import pexpect
+from pexpect import pxssh
 import getpass
 try:                                
     s = pxssh.pxssh()
